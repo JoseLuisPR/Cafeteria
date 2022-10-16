@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cafetería</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="./main.js"></script>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <span class="nav-item logo">Cafetería</span>
+            <ul class="nav-item">
+                <li class="nav-items menu"><a href="#colocacion-inicio">Galería</a></li>
+                <li class="nav-items"><a href="#colocacion-hosting">Precios</a></li>
+                <li class="nav-items"><a href="#colocacion-nube">Sobre Nosotros</a></li>
+                <li class="nav-items"><a href="#colocacion-servicios">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="presentacion">
+            <div class="fondo">
+                <img class="img-fondo" src="./media/img/cafe1.png" alt="">
+            </div>
+            <div class="otra-mitad">
+                <div class="main-screen">
+                    <div class="main-screen_text">
+                        <h1>Tu café.</h1>
+                        <h2>A tu manera.</h2>
+                        <h3>Como lo quieras, cuando lo quieras, y donde lo quieras.</h3>
+                        <button>Hacer pedido</button>
+                    </div>
+                    <div id="linea"></div>
+                    <div class="main-screen_imgs">
+                        <div class="img1"><img class="cafes-pequeños" src="./media/img/cafe1_pequeño.png" alt=""></div>
+                        <div class="img2"><img class="cafes-pequeños" src="./media/img/cafe2_pequeño.png" alt=""></div>
+                        <div class="img3"><img class="cafes-pequeños" src="./media/img/cafe3_pequeño.png" alt=""></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="cafes">
+            <div class="titulo-cafes">
+                <h1>El café con el que trabajamos</h1>
+            </div>
+            <div class="tipos-cafes">
+                <div class="tipos">
+                    <img class="img-tipos" src="./media/img/cafe2_pequeño.png" alt="">
+                    <h4>Espresso</h4>
+                    <p>Preparado como originalmente en Italia. Caracterizado por su rápida preparación a una alta
+                        presión y por un sabor y textura más concentrados.</p>
+                </div>
+                <div class="tipos"><img class="img-tipos" src="./media/img/cafe4_pequeño.png" alt="">
+                    <h4>Latte</h4>
+                    <p>De origen italiano hecho con espresso y leche al vapor.</p>
+                </div>
+                <div class="tipos"><img class="img-tipos" src="./media/img/cafe6_pequeño.png" alt="">
+                    <h4>San alberto</h4>
+                    <p>Café con gratas notas aromáticas dulces, afrutadas, que recuerdan el caramelo y el suave
+                        chocolate oscuro. Procedente de Colombia.</p>
+                </div>
+            </div>
+        </section>
+        <section class="popular-cafes">
+            <div class="titulo-popular">
+                <h1>Café popular</h1>
+            </div>
+            <div class="arriba">
+                <span onclick="moverIzquierda()" class="lf"><img class="botonderecho" src="./media/buttons/izquierda.png" alt=""></span>
+                <div class="carousel">
+                    <div class="grande" id="grande">
+                        <img src="./media/img/carrusel1.jpg" alt="#">
+                        <img src="./media/img/carrusel2.jpg" alt="#">
+                        <img src="./media/img/carrusel3.jpg" alt="#">
+                    </div>
+                </div>
+                <span onclick="moverDerecha()" class="rf"><img src="./media/buttons/derecha.png" alt=""></span>
+            </div>
+            <ul class="puntos">
+                <li id="punto1" class="punto activo"></li>
+                <li id="punto2" class="punto"></li>
+                <li id="punto3" class="punto"></li>
+            </ul>
+        </section>
+        <section class="destino">
+            <div class="centrar">
+                <h1>Para los amantes del café</h1>
+            <div class="cuerpo-destino">
+                <div class="img-destino"><img src="./media/img/amantes.png" alt=""></div>
+                <div class="img-destino-texto">
+                    <p class="parrafo-destino p1">Nuestra tienda es un lugar que debes visitar seas o no de la ciudad.</p>
+                    <p class="parrafo-destino">Es una parada obligatoria para turistas de todo el mundo.</p>
+                    <p class="parrafo-destino p3">Amantes del café vienen para pedir recomendaciones desde los lugares mas lejanos.</p>
+                </div>
+            </div>
+            <div class="boton-reserva">
+                <button class="reserva">Obtener reserva</button>
+            </div>
+            </div>
+        </section>
+        <section class="aboutus">
+            <div class="texto-aboutus">
+                <h1>Sobre Nosotros</h1>
+                <p>Teníamos claro que lo más importante era la calidad del producto, así que nos enfocamos en traer los mejores cafés, pero no nos bastaba con tener buen café, queríamos ofrecer cafés exoticos y extraños. Y con mucho esfuerzo, tiempo y dedicación, la cafetería hoy día es referente nacional en cuanto a café se refiere.</p>
+            </div>
+            <div class="imgs-aboutus">
+                <div><div class="img-aboutus abimg"><img class="pq" src="./media/img/caf1.jpg" alt=""></div>
+                <div class="img-aboutus midimg"><img class="gr" src="./media/img/caf3.jpg" alt=""></div>
+                <div class="img-aboutus botimg"><img class="pq" src="./media/img/caf2.jpg" alt=""></div></div>
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>

@@ -6,7 +6,6 @@ var amount = 34.1;
 var initial = 0;
 
 function moverDerecha() {
-    //document.getElementById("grande").style.transform="translateX(-33%)";
     if (initial>-68.1) {
         initial -= amount;
         console.log("der");

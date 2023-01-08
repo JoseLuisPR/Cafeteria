@@ -508,14 +508,14 @@ footer{
 @media only screen and (max-width: 768px) {
 /* Header */
 .nav-item {
-    width: 70%;
+    width: 73%;
 }
 .logo{
-    font-size: 5vw;
+    font-size: 4.5vw;
     width: 27%;
 }
 .nav-items {
-    font-size: 3vw;
+    font-size: 3.4vw;
 }
 
 /* Seccion1 */

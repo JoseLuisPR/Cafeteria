@@ -105,6 +105,7 @@ h1,.main-screen_text>h2{
     height: 5vw;
     font-size: 2vw;
     margin-top: 2.5vw;
+    border: none;
 }
 .main-screen_text{
     padding:5vw 5vw;
@@ -540,10 +541,12 @@ footer{
 }
 h1,.main-screen_text>h2{
     font-size: 10vw;
+    text-align: center;
 }
 .main-screen_text>h3{
     margin-top: 10vw;
     font-size: 4vw;
+    text-align: center;
 }
 .main-screen_text>button{
     width: 30vw;
@@ -554,6 +557,9 @@ h1,.main-screen_text>h2{
 .main-screen_text,.main-screen_imgs{
     width: 80%;
     height: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 #linea{
     display: none;
@@ -661,6 +667,7 @@ h1,.main-screen_text>h2{
 }
 .parrafo-destino{
     margin: 3vw 0;
+    text-align: center;
 }
 .p1{
     margin-top: 3vw;
@@ -685,6 +692,7 @@ h1,.main-screen_text>h2{
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
+    text-align: center;
 }
 .texto-aboutus>p{
     font-size: 4vw;
@@ -699,6 +707,7 @@ h1,.main-screen_text>h2{
 }
 .p-contacto{
     font-size: 4vw;
+    text-align: center;
 }
 .campoform{
     width: 60vw;

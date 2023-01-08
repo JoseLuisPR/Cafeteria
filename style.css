@@ -19,6 +19,9 @@ button{
 }
 
 /* Header */
+.menu{
+    display: none;
+}
 nav {
     position:absolute;
     top: 0;

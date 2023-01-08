@@ -502,3 +502,283 @@ footer{
     height: 3.4vw;
     width: 3.4vw;
 }
+
+
+/* Dispositivos Moviles */
+@media only screen and (max-width: 768px) {
+/* Header */
+.nav-item {
+    width: 70%;
+}
+
+.logo{
+    font-size: 5vw;
+    width: 27%;
+}
+
+.nav-items {
+    font-size: 3vw;
+}
+
+/* Seccion1 */
+.presentacion{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vw;
+}
+
+.fondo{
+    display: none;
+}
+
+.otra-mitad{
+    width: 100%;
+    height: 105vw;
+    align-items: flex-end;
+}
+
+.main-screen{
+    width: 100%;
+    height: 88vw;
+    align-items: center;
+    justify-content: center;
+}
+
+h1,.main-screen_text>h2{
+    font-size: 10vw;
+}
+
+.main-screen_text>h3{
+    margin-top: 10vw;
+    font-size: 4vw;
+}
+
+
+.main-screen_text>button{
+    width: 30vw;
+    height: 10vw;
+    font-size: 4vw;
+    margin-top: 5vw;
+}
+
+.main-screen_text,.main-screen_imgs{
+    width: 80%;
+    height: 90%;
+}
+
+#linea{
+    display: none;
+}
+
+.main-screen_imgs{
+    display: none
+}
+
+/* Seccion2 */
+.cafes{
+    padding: 5vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.titulo-cafes{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2.5vw;
+}
+.tipos-cafes{
+    flex-direction: column;
+    align-items: center;
+}
+.tipos{
+    width: 80%;
+}
+
+.tipos>h4{
+    font-size: 4vw;
+    margin-bottom: 3vw;
+}
+
+.tipos>p{
+    font-size: 2.5vw;
+}
+
+.img-tipos{
+    height: 25vw;
+    width: 25vw;
+    margin: 5vw 0;
+}
+
+/* Seccion3 */
+.popular-cafes{
+    height: 120vw;
+    justify-content: start;
+    flex-direction: column;
+}
+.lf,.rf{
+    align-items: flex-end;
+    position: relative;
+    width: 50%;
+    height: 50%;
+    padding: 0 5vw;
+    align-self: flex-end;
+}
+.lf{
+    justify-content: flex-end;
+}
+.rf{
+    justify-content: flex-start;
+}
+.lf>img,.rf>img{
+    width: 21vw;
+    height: 21vw;
+}
+.arriba{
+    display: flex;
+    height: 85vw;
+    align-items: flex-start;
+}
+.carousel{
+   width: 60vw;
+   height: 60vw;
+   margin-left: 21vw;
+}
+.grande{
+    width: 185vw;
+}
+.grande>img{
+    width: 56.2vw;
+    margin: 0 2vw 0 0;
+}
+.punto{
+    width: 3vw;
+    height: 3vw;
+    margin: 2vw;
+}
+/* Seccion4 */
+.cuerpo-destino{
+    flex-direction: column;
+    align-items: center;
+    padding: 3vw 0;
+}
+.img-destino{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.img-destino-texto{
+    font-size: 2.5vw;
+}
+.parrafo-destino{
+    margin: 3vw 0;
+}
+.p1{
+    margin-top: 3vw;
+}
+.img-destino>img{
+    height: 40vw;
+}
+.reserva{
+    width: 30vw;
+    height: 10vw;
+    font-size: 3vw;
+}
+
+
+
+
+
+
+
+
+
+
+/* Seccion5 */
+
+.aboutus{
+    background-color: #1e0c06;
+    display: flex;
+    height: 60vw;
+    justify-content: center;
+
+}
+
+.texto-aboutus{
+    width: 85%;
+    height: 100%;
+    margin: 0;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.texto-aboutus>h1{
+    margin: 2.5vw 0;
+    text-align: center;
+
+}
+
+.texto-aboutus>p{
+    font-size: 2.5vw;
+    margin: 5vw 0;
+}
+
+.imgs-aboutus{
+    display: none;
+}
+
+/* Seccion6 */
+
+.contacto{
+    display: flex;
+    justify-content: center;
+}
+
+.p-contacto{
+    font-size: 1.3vw;
+    margin: 0 14vw;
+}
+
+.form-contacto{
+    margin: 7.5vw 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.campoform{
+    width: 30vw;
+    height: 3.5vw;
+    margin: 0.5vw 0;
+    padding: 1vw;
+    background-color: black;
+    border: 0.2vw solid #7f7f7f;
+    color: white;
+    font-size: 1.2vw;
+}
+
+
+#pregunta{
+    resize: none;
+    height: 24vw;
+}
+
+.campoform::placeholder{
+   color: #7f7f7f;
+   font-size: 1.2vw;
+   position: relative;
+}
+
+.botonform{
+    background-color: #ff6d1c;
+    color: white;
+    height: 4vw;
+    width: 10.2vw;
+    font-size: 1.25vw;
+    margin: 1.5vw 0;
+    cursor: pointer;
+}
+}

@@ -510,12 +510,10 @@ footer{
 .nav-item {
     width: 70%;
 }
-
 .logo{
     font-size: 5vw;
     width: 27%;
 }
-
 .nav-items {
     font-size: 3vw;
 }
@@ -527,50 +525,40 @@ footer{
     justify-content: center;
     height: 100vw;
 }
-
 .fondo{
     display: none;
 }
-
 .otra-mitad{
     width: 100%;
     height: 105vw;
     align-items: flex-end;
 }
-
 .main-screen{
     width: 100%;
     height: 88vw;
     align-items: center;
     justify-content: center;
 }
-
 h1,.main-screen_text>h2{
     font-size: 10vw;
 }
-
 .main-screen_text>h3{
     margin-top: 10vw;
     font-size: 4vw;
 }
-
-
 .main-screen_text>button{
     width: 30vw;
     height: 10vw;
     font-size: 4vw;
     margin-top: 5vw;
 }
-
 .main-screen_text,.main-screen_imgs{
     width: 80%;
     height: 90%;
 }
-
 #linea{
     display: none;
 }
-
 .main-screen_imgs{
     display: none
 }
@@ -581,11 +569,13 @@ h1,.main-screen_text>h2{
     display: flex;
     flex-direction: column;
 }
-
 .titulo-cafes{
     display: flex;
     justify-content: center;
     margin-bottom: 2.5vw;
+}
+.titulo-cafes>h1{
+    font-size: 11vw;
 }
 .tipos-cafes{
     flex-direction: column;
@@ -594,19 +584,16 @@ h1,.main-screen_text>h2{
 .tipos{
     width: 80%;
 }
-
 .tipos>h4{
-    font-size: 4vw;
+    font-size: 5vw;
     margin-bottom: 3vw;
 }
-
 .tipos>p{
-    font-size: 2.5vw;
+    font-size: 4vw;
 }
-
 .img-tipos{
-    height: 25vw;
-    width: 25vw;
+    height: 35vw;
+    width: 35vw;
     margin: 5vw 0;
 }
 
@@ -662,13 +649,16 @@ h1,.main-screen_text>h2{
     align-items: center;
     padding: 3vw 0;
 }
+.centrar{
+    width: 100%;
+}
 .img-destino{
     width: 100%;
     display: flex;
     justify-content: center;
 }
 .img-destino-texto{
-    font-size: 2.5vw;
+    font-size: 4vw;
 }
 .parrafo-destino{
     margin: 3vw 0;
@@ -685,100 +675,63 @@ h1,.main-screen_text>h2{
     font-size: 3vw;
 }
 
-
-
-
-
-
-
-
-
-
 /* Seccion5 */
-
 .aboutus{
-    background-color: #1e0c06;
-    display: flex;
-    height: 60vw;
+    height: 90vw;
     justify-content: center;
-
 }
-
 .texto-aboutus{
     width: 85%;
-    height: 100%;
-    margin: 0;
-
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
 }
-
-.texto-aboutus>h1{
-    margin: 2.5vw 0;
-    text-align: center;
-
-}
-
 .texto-aboutus>p{
-    font-size: 2.5vw;
-    margin: 5vw 0;
+    font-size: 4vw;
 }
-
 .imgs-aboutus{
     display: none;
 }
 
 /* Seccion6 */
-
-.contacto{
-    display: flex;
-    justify-content: center;
+.centrar>h1{
+    font-size: 8vw;
 }
-
 .p-contacto{
-    font-size: 1.3vw;
-    margin: 0 14vw;
+    font-size: 4vw;
 }
-
-.form-contacto{
-    margin: 7.5vw 0;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
 .campoform{
-    width: 30vw;
-    height: 3.5vw;
-    margin: 0.5vw 0;
-    padding: 1vw;
-    background-color: black;
-    border: 0.2vw solid #7f7f7f;
-    color: white;
-    font-size: 1.2vw;
+    width: 60vw;
+    height: 8vw;
+    margin: 1vw 0;
+    font-size: 4vw;
 }
-
-
-#pregunta{
-    resize: none;
-    height: 24vw;
-}
-
 .campoform::placeholder{
-   color: #7f7f7f;
-   font-size: 1.2vw;
-   position: relative;
+   font-size: 4vw;
+}
+.botonform{
+    height: 8vw;
+    width: 22vw;
+    font-size: 4vw;
+    margin: 6vw 0 0 0;
 }
 
-.botonform{
-    background-color: #ff6d1c;
-    color: white;
+/*Footer*/
+footer{
+    height: 16vw;
+}
+.footerinfo{
+    margin: 2vw 0 3.3vw;
+}
+.footerinf>span{
+    font-size: 3.2vw;
+}
+.copyright{
+    font-size: 3.2vw;
+}
+.imgfooter{
     height: 4vw;
-    width: 10.2vw;
-    font-size: 1.25vw;
-    margin: 1.5vw 0;
-    cursor: pointer;
+    width: 4vw;
 }
 }

@@ -468,6 +468,7 @@ h1,.main-screen_text>h2{
     font-size: 1.25vw;
     margin: 1.5vw 0;
     cursor: pointer;
+    border: none;
 }
 
 /*Footer*/

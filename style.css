@@ -317,7 +317,7 @@ h1,.main-screen_text>h2{
 }
 
 .parrafo-destino{
-    margin: 1.8vw 0;
+    margin: 1.8vw 0 1.8vw 1.8vw;
 }
 
 .p1{
@@ -510,12 +510,14 @@ footer{
 /* Header */
 .nav-item {
     width: 100%;
+    padding-top: 1vw;
 }
 .logo{
     display: none;
 }
 .nav-items {
     font-size: 3.4vw;
+    text-align: center;
 }
 
 /* Seccion1 */

@@ -45,3 +45,11 @@ function moverIzquierda() {
     document.getElementById("grande").style.transform = "translateX(" + initial + "%)"
     document.getElementById("grande").style.transition=" all .5s" 
 }
+
+//Boton de subir
+
+window.addEventListener('scroll', function () {
+	let botonSubir = document.querySelector('.subir');
+	let windowPosition = window.scrollY > 995;
+	botonSubir.classList.toggle('subirB', windowPosition);
+})

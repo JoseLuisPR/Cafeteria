@@ -8,6 +8,10 @@
     font-family: 'Montserrat', sans-serif;
 }
 
+*:focus{
+    outline: none;
+}
+
 html {
     scroll-behavior: smooth;
     background-color: black;
@@ -74,6 +78,7 @@ nav {
     width: 5vw;
     height: 5vw;
     border: 0.2vw solid black;
+    outline: none;
 }
 .ocultar:visited{
     color: white;
